@@ -1,7 +1,7 @@
 # 🌱 Otimização de Irrigação com Deep Learning
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20.0-orange.svg)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-API-red.svg)](https://keras.io/)
 
 Modelo de Deep Learning para prever níveis ideais de umidade do solo e otimizar sistemas de irrigação agrícola. O projeto usa redes neurais artificiais para ajudar produtores a economizar água e energia enquanto maximizam a produtividade das colheitas.
@@ -134,7 +134,7 @@ Deploy
 
 ### Pré-requisitos
 - Python 3.8+
-- TensorFlow 2.x
+- TensorFlow 2.20.0
 - Jupyter Notebook
 
 ### Instalação
@@ -150,7 +150,7 @@ cd otimizacao-irrigacao-deep-learning
 pip install -r requirements.txt
 
 # Abra o notebook
-jupyter notebook Projeto9_Otimizacao_Irrigacao.ipynb
+jupyter notebook otimizacao-irrigacao-deep-learnin.ipynb
 ```
 
 ### Executando
