@@ -4,7 +4,7 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20.0-orange.svg)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-API-red.svg)](https://keras.io/)
 
-Modelo de Deep Learning para prever níveis ideais de umidade do solo e otimizar sistemas de irrigação agrícola. O projeto usa redes neurais artificiais para ajudar produtores a economizar água e energia enquanto maximizam a produtividade das colheitas.
+Modelo de Deep Learning para prever níveis de umidade do solo e otimizar sistemas de irrigação agrícola. O projeto usa redes neurais artificiais para ajudar produtores a economizar água e energia enquanto maximizam a produtividade das colheitas.
 
 ---
 
@@ -56,25 +56,6 @@ Produtores rurais enfrentam um dilema diário:
 
 ---
 
-## 🏗️ Arquitetura da Rede Neural
-
-<details>
-<summary><b>Clique para ver detalhes técnicos</b></summary>
-
-### Estrutura
-
-```
-Entrada (N features)
-    ↓
-Dense(64) + ReLU + Dropout(30%)
-    ↓
-Dense(32) + ReLU + Dropout(30%)
-    ↓
-Dense(16) + ReLU
-    ↓
-Dense(1) - Saída Linear
-```
-
 ### Componentes-Chave
 
 **1. Camadas Densas (Fully Connected)**
@@ -101,7 +82,7 @@ Dense(1) - Saída Linear
 
 ```python
 Deep Learning & ML
-├── TensorFlow 2.x        # Framework de Deep Learning
+├── TensorFlow 2.20.0        # Framework de Deep Learning
 ├── Keras API             # Interface simplificada
 ├── Scikit-learn          # Pré-processamento
 └── NumPy/Pandas          # Manipulação de dados
@@ -229,7 +210,7 @@ print(f"Umidade prevista: {previsao[0][0]:.2f}%")
 
 ## 🔮 Próximos Passos
 
-- [ ] API REST com Flask/FastAPI para deploy em produção
+- [ ] API REST com Flask/FastAPI/Streamlit para deploy em produção
 - [ ] Interface web para agricultores
 - [ ] Integração com sensores IoT em tempo real
 - [ ] Modelo de séries temporais (LSTM) para previsões futuras
