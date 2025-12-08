@@ -32,25 +32,36 @@ Produtores rurais enfrentam um dilema diário:
 <details>
 <summary>📊 <b>Ver resultados do modelo</b></summary>
 
+![Demonstração do modelo](images/demomodelo.gif)
+
 ### Métricas de Desempenho
 
 | Métrica | Valor | Interpretação |
 |---------|-------|---------------|
-| **MAE (Teste)** | 12.01 | Erro médio de X pontos percentuais |
+| **MAE (Teste)** | 12.01 | Erro médio de 12 pontos de umidade |
 | **MSE (Teste)** | 192.46 | Erro quadrático médio |
 | **Épocas Treinadas** | 44/100 | Early stopping ativado |
 
 ### Exemplo de Previsão
 
-**Entrada:**
-- Temperatura: 28°C
-- Precipitação: 15mm
-- Tipo de solo: Argiloso
-- Dias desde última irrigação: 3
+## 🎬 Demonstração APP Local
+
+![Sistema local em Ação](images/demolocal.gif)
+
+**Entrada:** 
+        "indice_vegetacao": 354, 
+        "capacidade_solo": 684, 
+        "concentracao_co2": 3736.3, 
+        "nivel_nutrientes": 914.09, 
+        "indice_fertilizantes": 849.78, 
+        "profundidade_raiz": 412.37, 
+        "radiacao_solar": 889, 
+        "precipitacao": 49.81, 
+        "estagio_crescimento": 154.92254, 
+        "historico_rendimento": 245.3
 
 **Saída:**
-- Umidade prevista: 65%
-- Recomendação: Irrigar em 2 dias
+- Umidade prevista: 44%
 
 </details>
 
