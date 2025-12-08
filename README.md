@@ -4,7 +4,7 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20.0-orange.svg)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-API-red.svg)](https://keras.io/)
 
-Modelo de Deep Learning para prever níveis de umidade do solo e otimizar sistemas de irrigação agrícola. O projeto usa redes neurais artificiais para ajudar produtores a economizar água e energia enquanto maximizam a produtividade das colheitas.
+Modelo de Deep Learning para prever níveis de umidade do solo e otimizar sistemas de irrigação agrícola. O projeto usa redes neurais artificiais para ajudar produtores a economizar água e energia enquanto maximizam a produtividade das colheitas. Com API Flask para Deploy.
 
 ---
 
@@ -192,7 +192,7 @@ scaler_ba.joblib         # Padronizador (para novos dados)
 
 **Para fazer previsões:**
 ```
-API para deploy
+API Flask para deploy
 python
 
 # 1 - Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
