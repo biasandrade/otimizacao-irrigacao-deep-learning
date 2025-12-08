@@ -29,10 +29,13 @@ Produtores rurais enfrentam um dilema diário:
 
 ## 🎬 Demonstração
 
+![Demonstração do modelo](images/demomodelo.gif)
+
+
+![Sistema local em Ação](images/demolocal.gif)
+
 <details>
 <summary>📊 <b>Ver resultados do modelo</b></summary>
-
-![Demonstração do modelo](images/demomodelo.gif)
 
 ### Métricas de Desempenho
 
@@ -46,23 +49,26 @@ Produtores rurais enfrentam um dilema diário:
 
 ## 🎬 Demonstração APP Local
 
-![Sistema local em Ação](images/demolocal.gif)
-
-**Entrada:** 
-        "indice_vegetacao": 354, 
-        "capacidade_solo": 684, 
-        "concentracao_co2": 3736.3, 
-        "nivel_nutrientes": 914.09, 
-        "indice_fertilizantes": 849.78, 
-        "profundidade_raiz": 412.37, 
-        "radiacao_solar": 889, 
-        "precipitacao": 49.81, 
-        "estagio_crescimento": 154.92254, 
-        "historico_rendimento": 245.3
+**Entradas:** (indice_vegetacao 354, capacidade_solo 684, concentracao_co2 3736.3, nivel_nutrientes 914.09, indice_fertilizantes 849.78, profundidade_raiz 412.37, radiacao_solar 889, precipitacao 49.81, estagio_crescimento 154.92254, historico_rendimento 245.3)
 
 **Saída:**
 - Umidade prevista: 44%
 
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+```python
+Deep Learning & ML
+├── TensorFlow 2.20.0        # Framework de Deep Learning
+├── Keras API             # Interface simplificada
+├── Scikit-learn          # Pré-processamento
+└── NumPy/Pandas          # Manipulação de dados
+
+Deploy
+├── Joblib                # Serialização de objetos
+└── StandardScaler        # Padronização (salvo para deploy)
+```
 </details>
 
 ---
@@ -86,22 +92,6 @@ Produtores rurais enfrentam um dilema diário:
 - **Model Checkpoint:** Salva automaticamente a melhor versão
 
 </details>
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-```python
-Deep Learning & ML
-├── TensorFlow 2.20.0        # Framework de Deep Learning
-├── Keras API             # Interface simplificada
-├── Scikit-learn          # Pré-processamento
-└── NumPy/Pandas          # Manipulação de dados
-
-Deploy
-├── Joblib                # Serialização de objetos
-└── StandardScaler        # Padronização (salvo para deploy)
-```
 
 ---
 
@@ -167,31 +157,6 @@ Execute célula por célula e acompanhe o processo!
 
 ---
 
-## 🧠 Conceitos Aplicados
-
-### Machine Learning
-- Supervised Learning (Regressão)
-- Train/Test Split
-- Feature Engineering
-- Padronização (StandardScaler)
-
-### Deep Learning
-- Redes Neurais Artificiais (ANN)
-- Forward Propagation
-- Backpropagation
-- Função de Perda (MSE)
-- Otimização (Adam)
-- Regularização (Dropout)
-- Early Stopping
-
-### Boas Práticas
-- Validação cruzada
-- Salvamento de modelos para deploy
-- Callbacks inteligentes
-- Código documentado e explicativo
-
----
-
 ## 💾 Arquivos Gerados
 
 Após o treinamento, o projeto gera:
@@ -219,6 +184,30 @@ python app.py
 # 5 - Execute o comando abaixo para executar o cliente e consumir a API, extraindo assim a previsão do modelo:
 python cliente.py
 ```
+---
+
+## 🧠 Conceitos Aplicados
+
+### Machine Learning
+- Supervised Learning (Regressão)
+- Train/Test Split
+- Feature Engineering
+- Padronização (StandardScaler)
+
+### Deep Learning
+- Redes Neurais Artificiais (ANN)
+- Forward Propagation
+- Backpropagation
+- Função de Perda (MSE)
+- Otimização (Adam)
+- Regularização (Dropout)
+- Early Stopping
+
+### Boas Práticas
+- Validação cruzada
+- Salvamento de modelos para deploy
+- Callbacks inteligentes
+- Código documentado e explicativo
 
 ---
 
@@ -238,6 +227,7 @@ python cliente.py
 Este projeto foi desenvolvido no curso da **Data Science Academy**.
 
 **Competências desenvolvidas:**
+
 ✅ Deep Learning com TensorFlow/Keras  
 ✅ Regularização e prevenção de overfitting  
 ✅ Callbacks e automação de treinamento  
@@ -249,7 +239,7 @@ Este projeto foi desenvolvido no curso da **Data Science Academy**.
 ## 👩‍💻 Autora
 
 **Beatriz Andrade**  
-18 anos com dados | 2024: Machine Learning
+18 anos com dados | Desde 2024 com Machine Learning
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Beatriz%20Andrade-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrade-beatriz/)
 [![GitHub](https://img.shields.io/badge/GitHub-biasandrade-black?style=flat&logo=github)](https://github.com/biasandrade)
