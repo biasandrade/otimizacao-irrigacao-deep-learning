@@ -224,8 +224,6 @@ python cliente.py
 
 ## 📚 Aprendizados
 
-Este projeto foi desenvolvido no curso da **Data Science Academy**.
-
 **Competências desenvolvidas:**
 
 ✅ Deep Learning com TensorFlow/Keras  
@@ -246,6 +244,7 @@ Este projeto foi desenvolvido no curso da **Data Science Academy**.
 [![Email](https://img.shields.io/badge/Email-biasandrade%40gmail.com-red?style=flat&logo=gmail)](mailto:biasandrade@gmail.com)
 
 ---
+Este projeto faz parte do curso "Data Science para análise multivariada de dados" do curso de Pós-graduação em Data Science da Data Science Academy.
 
 ## 📄 Licença
 
