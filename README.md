@@ -191,7 +191,9 @@ scaler_ba.joblib         # Padronizador (para novos dados)
 ```
 
 **Para fazer previsões:**
-```python
+```
+API para deploy
+python
 
 # 1 - Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
 conda create --name ba python=3.13
@@ -211,7 +213,6 @@ python cliente.py
 
 ## 🔮 Próximos Passos
 
-- [ ] API REST com Flask/FastAPI/Streamlit para deploy em produção
 - [ ] Interface web para agricultores
 - [ ] Integração com sensores IoT em tempo real
 - [ ] Modelo de séries temporais (LSTM) para previsões futuras
