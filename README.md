@@ -194,7 +194,7 @@ scaler_ba.joblib         # Padronizador (para novos dados)
 ```python
 
 # 1 - Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
-conda create --name ba python=3.12
+conda create --name ba python=3.13
 # 2 - Ative o ambiente:
 conda activate ba (ou: source activate ba)
 # Instale o pip e as dependências:
@@ -227,7 +227,6 @@ Este projeto foi desenvolvido no curso da **Data Science Academy**.
 
 **Competências desenvolvidas:**
 ✅ Deep Learning com TensorFlow/Keras  
-✅ Arquitetura de redes neurais  
 ✅ Regularização e prevenção de overfitting  
 ✅ Callbacks e automação de treinamento  
 ✅ Preparação de modelos para deploy  
