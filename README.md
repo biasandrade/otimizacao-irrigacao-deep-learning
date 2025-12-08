@@ -36,9 +36,9 @@ Produtores rurais enfrentam um dilema diário:
 
 | Métrica | Valor | Interpretação |
 |---------|-------|---------------|
-| **MAE (Teste)** | X.XX | Erro médio de X pontos percentuais |
-| **MSE (Teste)** | X.XX | Erro quadrático médio |
-| **Épocas Treinadas** | XX/100 | Early stopping ativado |
+| **MAE (Teste)** | 12.01 | Erro médio de X pontos percentuais |
+| **MSE (Teste)** | 192.46 | Erro quadrático médio |
+| **Épocas Treinadas** | 44/100 | Early stopping ativado |
 
 ### Exemplo de Previsão
 
