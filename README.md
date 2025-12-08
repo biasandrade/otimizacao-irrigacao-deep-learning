@@ -192,18 +192,19 @@ scaler_ba.joblib         # Padronizador (para novos dados)
 
 **Para fazer previsões:**
 ```python
-import joblib
-import tensorflow as tf
 
-# Carregar modelo e scaler
-modelo = tf.keras.models.load_model('modelo_ba.keras')
-scaler = joblib.load('scaler_ba.joblib')
-
-# Fazer previsão
-novos_dados = [[28, 15, 3, ...]]  # Seus dados
-dados_padronizados = scaler.transform(novos_dados)
-previsao = modelo.predict(dados_padronizados)
-print(f"Umidade prevista: {previsao[0][0]:.2f}%")
+# 1 - Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+conda create --name ba python=3.12
+# 2 - Ative o ambiente:
+conda activate ba (ou: source activate ba)
+# Instale o pip e as dependências:
+conda install pip
+pip install -r requirements.txt 
+# 3 - Execute o comando abaixo para iniciar a app da API:
+python app.py
+# 4 - Abra outro terminal ou prompt de comando. Navegue até a pasta onde estão os arquivos do projeto, ative novamente o ambiente virtual com o comando: conda activate ba.
+# 5 - Execute o comando abaixo para executar o cliente e consumir a API, extraindo assim a previsão do modelo:
+python cliente.py
 ```
 
 ---
